@@ -1,0 +1,49 @@
+Les Arguments et options du script [Type de données]
+
+-t [MODE] :  (toujours mettre un espace entre le "t" et le numéro du Mode)
+-t 1      : permet de trier les températures minimales, maximales et moyennes pour chaque dans l'ordre croissant
+-t 2      : permet de trier la température moyenne des stations par date/heure dans l'ordre chronologique
+-t 3      : permet de trier les températures par date/heure par station par ordre chronologique puuis par ordre croissant de l'identifiant de la station
+
+-p [MODE] : (toujours mettre un espace entre le "p" et le numéro du Mode)
+-p 1      : permet de trier les pressions minimales, maximales et moyennes pour chaque dans l'ordre croissant
+-p 2      : permet de trier la pression moyenne des stations par date/heure dans l'ordre chronologique
+-p 3      : permet de trier les pressions par date/heure par station par ordre chronologique puuis par ordre croissant de l'identifiant de la station
+
+-w        : permet de trier l'orientation moyenne et la vitesse moyenne de chaque station par identifiant croissant des stations
+
+-h        : permet de trier l'altitude de chaque station par ordre decroissant 
+
+-m        : permet de trier les valeurs d'humidités de chaque station dans l'ordre décroissant
+
+ 
+   -> La liste des options de limitation géographique
+
+-F        : pour la France métropolitaine et la Corse
+
+-G        : pour la Guyane Française
+
+-S        : pour Saint-Pierre et Miquelon (ile à l'est du Canada)
+
+-A        : pour les Antiles
+
+-O        : pour l'Océan Indien
+
+-Q        : pour l'Antarctique
+
+
+   -> Les Arguments et options du script [TRIS] 
+
+--abr     : permet d'effectuer un tri à l'aide d'une structure de type abr
+
+--avl     : permet d'effectuer un tri à l'aide d'une structure de type avl
+
+--tab     : permet d'effectuer un tri à l'aide d'une structure linéaire, ici, une liste chainée
+
+  -> Les Arguments et options du script [DATES] 
+
+-d <min> <max> : données de sortie sont dans l’intervalle de dates [<min>..<max>]incluses. Le format des dates est une chaine de type YYYY-MM-DD(année-mois-jour).
+
+  -> Les Arguments et options du script [FICHIER] : 
+
+-f <nom_fichier> : doit être renseigné pour que le script puisse traiter des données.
