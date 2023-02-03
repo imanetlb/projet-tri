@@ -1,0 +1,8 @@
+tri : main.o fonction.o
+	gcc main.o fonction.o -o tri
+
+main.o : main.c fonction.c
+	gcc -c -w main.c -o main.o
+
+fonction.o : fonction.c
+	gcc -c -w fonction.c -o fonction.o
